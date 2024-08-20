@@ -18,7 +18,8 @@ public class AboutMe {
         // Imprimindo os dados
 
         System.out.println("Ola meu nome é " + nome);
-        System.out.println("Tenho " + idade + " anos de idade.");
-        System.out.println("Tenho " + altura + " CM de altura");                                                                 
+        System.out.println("Tenho " + idade + "     canos de idade.");
+        System.out.println("Tenho " + altura + " CM de altura");     
+        scanner.close();                                                            
     }
 }
