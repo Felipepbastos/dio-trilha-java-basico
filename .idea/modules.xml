@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CalculadoraSimples/CalculadoraSimples.iml" filepath="$PROJECT_DIR$/CalculadoraSimples/CalculadoraSimples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafio-1-DIO/Desafio-1-DIO.iml" filepath="$PROJECT_DIR$/Desafio-1-DIO/Desafio-1-DIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Estrutura-Condicional/Estrutura-Condicional.iml" filepath="$PROJECT_DIR$/Estrutura-Condicional/Estrutura-Condicional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-classes/Java-classes.iml" filepath="$PROJECT_DIR$/Java-classes/Java-classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projeto1/Projeto1.iml" filepath="$PROJECT_DIR$/Projeto1/Projeto1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projeto2/Projeto2.iml" filepath="$PROJECT_DIR$/Projeto2/Projeto2.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,6 +1,4 @@
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class ContaTerminalGUI {
     public static void main(String[] args) {
@@ -54,22 +52,19 @@ public class ContaTerminalGUI {
         frame.add(messageLabel);
 
         // Adicionando ação ao botão
-        submitButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                // Capturando os dados dos campos de texto
-                String nomeCliente = nameField.getText();
-                String agencia = agenciaField.getText();
-                int contaCliente = Integer.parseInt(contaField.getText());
-                double saldo = Double.parseDouble(saldoField.getText());
+        submitButton.addActionListener(e -> {
+            // Capturando os dados dos campos de texto
+            String nomeCliente = nameField.getText();
+            String agencia = agenciaField.getText();
+            int contaCliente = Integer.parseInt(contaField.getText());
+            double saldo = Double.parseDouble(saldoField.getText());
 
-                // Criando a mensagem final
-                String mensagem = "<html>Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco. <br>" +
-                "Sua agência é " + agencia + ", conta " + contaCliente + " e seu saldo " + saldo + " já está disponível para saque.</html>";
+            // Criando a mensagem final
+            String mensagem = "<html>Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco. <br>" +
+            "Sua agência é " + agencia + ", conta " + contaCliente + " e seu saldo " + saldo + " já está disponível para saque.</html>";
 
-                // Exibindo a mensagem no label
-                messageLabel.setText(mensagem);
-            }
+            // Exibindo a mensagem no label
+            messageLabel.setText(mensagem);
         });
 
         // Tornando a janela visível
